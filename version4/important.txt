@@ -1,0 +1,2 @@
+This version of the game is the first fully working and functional version of the base code. Most previous versions (other than version 1) have code bugs and errors which diminish the experience. 
+More flavor is also added in this version series, with recessions being added in version 4.2 and updated in 4.3. All in all, this version represents the first stable version which should be used to actually play the game.
