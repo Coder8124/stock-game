@@ -1,0 +1,10 @@
+add life events, for example: you broke your leg... now you have to pay the hospital 6,000 dollars
+add other windows, e.g minigames, which can add multiplier to your money
+you are a stock broker guy, other people give you money. You need to pass quotas to get more money, and if you don't, you will be hunted down by the irs
+you can only pay for life situations with your own money
+game ends after 500 months
+(probably slow down the game as well)
+
+add IRS bar, in which you see a threat rating. The higher threat rating you have, the more likely the IRS is going to come and seize half your assets
+if you reach 100% threat, you get arrested & game over. The way you get threat is by performing shady deals/insider trading. Your stocks don't go up as much without insider trading
+3 levels of recessions, regular, recession, & DEPRESSION
