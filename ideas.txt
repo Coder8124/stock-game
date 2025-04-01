@@ -17,3 +17,9 @@ Recession Odds:
 91-100: Depression
 
 Bottom scrolling text news
+
+
+3 systems for affecting stock growth:
+  - Economy (purely random) -> all stocks grow rate is bssed on 3 modes -> standard, upturn, downturn, happens constantly/for a long period
+  - Event System -> affects specific industry growth
+  - Recession system -> afffects all growth but seperate from economy, happens irreugurally
