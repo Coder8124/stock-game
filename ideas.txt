@@ -9,18 +9,22 @@ add IRS bar, in which you see a threat rating. The higher threat rating you have
 if you reach 100% threat, you get arrested & game over. The way you get threat is by performing shady deals/insider trading. Your stocks don't go up as much without insider trading
 3 levels of recessions, regular, recession, & DEPRESSION
 
+------completed-------
+  ~Recession Odds:
+  1-5: Fake
+  6-65: Standard
+  66-90: Recession
+  91-100: Depression
 
-~Recession Odds:
-1-5: Fake
-6-65: Standard
-66-90: Recession
-91-100: Depression
+  - Economy (purely random) -> all stocks grow rate is bssed on 3 modes -> standard, upturn, downturn, happens constantly/for a long period
 
-Bottom scrolling text news~
-
+  Bottom scrolling text news~
+------completed-------
 
 
 3 systems for affecting stock growth:
-  - Economy (purely random) -> all stocks grow rate is bssed on 3 modes -> standard, upturn, downturn, happens constantly/for a long period
+  
   - Event System -> affects specific industry growth
   - Recession system -> afffects all growth but seperate from economy, happens irreugurally
+
+colored text to indicate whether you have profit or loss on your stocks
