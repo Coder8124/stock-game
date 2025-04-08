@@ -10,13 +10,14 @@ if you reach 100% threat, you get arrested & game over. The way you get threat i
 3 levels of recessions, regular, recession, & DEPRESSION
 
 
-~~Recession Odds:
+~ Recession Odds:
 1-5: Fake
 6-65: Standard
 66-90: Recession
 91-100: Depression
 
-Bottom scrolling text news~~
+Bottom scrolling text news
+~
 
 
 3 systems for affecting stock growth:
