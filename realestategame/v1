@@ -1,0 +1,145 @@
+import pygame
+import random
+
+# Initialize Pygame
+pygame.init()
+
+# Screen dimensions
+SCREEN_WIDTH = 1000
+SCREEN_HEIGHT = 700
+
+# Colors
+WHITE = (255, 255, 255)
+BLACK = (0, 0, 0)
+GREEN = (0, 200, 0)
+RED = (200, 0, 0)
+BLUE = (0, 0, 200)
+YELLOW = (255, 255, 0)
+
+# Game setup
+screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
+pygame.display.set_caption("Real Estate Tycoon")
+clock = pygame.time.Clock()
+
+# Fonts
+font = pygame.font.Font(None, 36)
+small_font = pygame.font.Font(None, 24)
+
+# Player stats
+player_balance = 500_000
+player_properties = []
+
+# Property class
+class Property:
+    def __init__(self, x, y, width, height, name):
+        self.rect = pygame.Rect(x, y, width, height)
+        self.name = name
+        self.value = random.randint(50_000, 200_000)  # Random initial value
+        self.owner = None
+        self.development_level = 0
+
+    def draw(self):
+        # Color changes based on ownership and development level
+        if self.owner is None:
+            color = GREEN
+        elif self.owner == "Player":
+            color = BLUE if self.development_level == 0 else YELLOW
+        else:
+            color = RED
+
+        pygame.draw.rect(screen, color, self.rect)
+        pygame.draw.rect(screen, BLACK, self.rect, 2)  # Border
+
+        # Display property name and value
+        name_surface = small_font.render(self.name, True, BLACK)
+        value_surface = small_font.render(f"${self.value}", True, BLACK)
+        screen.blit(name_surface, (self.rect.x + 5, self.rect.y + 5))
+        screen.blit(value_surface, (self.rect.x + 5, self.rect.y + 25))
+
+    def interact(self):
+        global player_balance
+
+        if self.owner is None:
+            # Buy property if player has enough balance
+            if player_balance >= self.value:
+                print(f"You bought {self.name} for ${self.value}.")
+                player_balance -= self.value
+                self.owner = "Player"
+                player_properties.append(self)
+            else:
+                print(f"Not enough money to buy {self.name}.")
+        elif self.owner == "Player":
+            # Develop property to increase its value
+            development_cost = int(self.value * 0.2)  # Development cost is 20% of property value
+            if player_balance >= development_cost:
+                print(f"You developed {self.name} for ${development_cost}.")
+                player_balance -= development_cost
+                self.development_level += 1
+                self.value += int(self.value * 0.5)  # Increase value by 50%
+            else:
+                print(f"Not enough money to develop {self.name}.")
+        else:
+            print(f"{self.name} is owned by someone else.")
+
+# Create properties on the map
+properties = [
+    Property(100, 100, 150, 100, "House A"),
+    Property(300, 100, 150, 100, "House B"),
+    Property(500, 100, 150, 100, "House C"),
+    Property(700, 100, 150, 100, "House D"),
+    Property(200, 300, 150, 100,"Shop A"),
+    Property(400 ,300 ,150 ,100 ,"Shop B"),
+    Property(600 ,300 ,150 ,100 ,"Shop C")
+]
+
+# Random economic events affecting property values
+def economic_event():
+    event_type=random.choice(["boom","crash"])
+    for property in properties :
+      if event_type=="boom":
+         property.value+=int(property.value*random.uniform(.1,.3))
+         print("Property values increased due to an economic boom!")
+      elif event_type=="crash":
+         property.value-=int(property.value*random.uniform(.1,.3))
+         print("Property values decreased due to an economic crash!")
+
+# Draw the player's stats on the screen
+def draw_stats():
+    balance_surface=font.render(f"Balance: ${player_balance}",True ,BLACK)   
+    properties_surface=font.render(f"Properties Owned: {len(player_properties)}",True ,BLACK) 
+    screen.blit(balance_surface,(10 ,SCREEN_HEIGHT-70)) 
+    screen.blit(properties_surface,(10 ,SCREEN_HEIGHT-40)) 
+
+# Game loop setup and timer for random events
+running=True 
+event_timer=pygame.USEREVENT+1 
+pygame.time.set_timer(event_timer ,15_000) # Trigger random events every 15 seconds
+
+while running:
+    screen.fill(WHITE) # Clear screen at the start of each frame
+    
+    # Event handling loop
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            running=False
+        
+        if event.type == pygame.MOUSEBUTTONDOWN: # Handle mouse clicks on properties
+            mouse_pos=event.pos 
+            for property in properties :
+              if property.rect.collidepoint(mouse_pos):
+                 property.interact()
+        
+        if event.type==event_timer: # Trigger economic events periodically 
+           economic_event()
+
+    # Draw everything on the screen
+    for property in properties:
+        property.draw()
+    
+    draw_stats() # Draw player stats
+    
+    pygame.display.flip() # Update display with new frame content
+    
+    clock.tick(60) # Limit frame rate to maintain smooth gameplay
+
+pygame.quit()
