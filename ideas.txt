@@ -4,12 +4,16 @@ you are a stock broker guy, other people give you money. You need to pass quotas
 you can only pay for life situations with your own money
 game ends after 500 months
 (probably slow down the game as well)
+you lose game if either your personal or your investing account goes to 0.
+3 tiers of personal events: 0-10k profit = events like :you found a dollar on the road. 10k-50k profit = events like: you got a bonus at work. 50k-infinite= events like: the irs audited you.
+
 
 add IRS bar, in which you see a threat rating. The higher threat rating you have, the more likely the IRS is going to come and seize half your assets
 if you reach 100% threat, you get arrested & game over. The way you get threat is by performing shady deals/insider trading. Your stocks don't go up as much without insider trading
-3 levels of recessions, regular, recession, & DEPRESSION
+
 
 ------completed-------
+3 levels of recessions, regular, recession, & DEPRESSION
   ~Recession Odds:
   1-5: Fake
   6-65: Standard
