@@ -11,7 +11,7 @@ you lose game if either your personal or your investing account goes to 0.
 add IRS bar, in which you see a threat rating. The higher threat rating you have, the more likely the IRS is going to come and seize half your assets
 if you reach 100% threat, you get arrested & game over. The way you get threat is by performing shady deals/insider trading. Your stocks don't go up as much without insider trading
 
-
+once you make enough money you unlock a real estate window where you can flip houses
 ------completed-------
 3 levels of recessions, regular, recession, & DEPRESSION
   ~Recession Odds:
