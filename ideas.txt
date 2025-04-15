@@ -28,3 +28,5 @@ if you reach 100% threat, you get arrested & game over. The way you get threat i
   - Recession system -> afffects all growth but seperate from economy, happens irreugurally
 
 colored text to indicate whether you have profit or loss on your stocks
+
+
