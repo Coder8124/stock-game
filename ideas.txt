@@ -34,3 +34,155 @@ if you reach 100% threat, you get arrested & game over. The way you get threat i
 colored text to indicate whether you have profit or loss on your stocks
 
 
+events:
+
+Steel
+Positive Events:
+A major government infrastructure bill passes, driving steel demand for bridges and highways.
+
+Breakthrough in green steel technology reduces carbon emissions by 50%.
+
+India announces a 10-year plan to double steel production capacity.
+
+Global construction boom projected as urbanization accelerates in Africa and Asia.
+
+New trade agreements eliminate tariffs on steel exports, opening new markets.
+
+Development of lightweight, ultra-strong steel alloys revolutionizes the automotive industry.
+
+A major mining company discovers vast new iron ore reserves, lowering raw material costs.
+
+Steel recycling rates hit record highs, reducing production costs and boosting profits.
+
+Negative Events:
+A global recession hits, causing a sharp decline in construction and manufacturing activity.
+
+China announces a 20% reduction in steel imports as it focuses on domestic production.
+
+Rising energy prices make steel production more expensive and less competitive.
+
+Environmental regulations tighten, forcing steelmakers to invest heavily in compliance.
+
+A breakthrough in graphene technology threatens to replace steel in key industries.
+
+Labor strikes at major steel plants lead to production halts and missed contracts.
+
+A trade war between the U.S. and Europe results in heavy tariffs on steel exports.
+
+Flooding disrupts mining operations, creating a shortage of raw materials for steel production.
+
+Tech
+Positive Events:
+A new AI chip is developed that is 5x faster and more energy-efficient than current models.
+
+Quantum computing achieves a breakthrough, unlocking new applications across industries.
+
+Global governments announce subsidies for tech companies investing in green energy solutions.
+
+The metaverse gains mass adoption, driving demand for VR/AR devices and platforms.
+
+A major tech company unveils a revolutionary battery that doubles smartphone battery life.
+
+Expansion of satellite internet services brings connectivity to remote areas worldwide.
+
+Autonomous vehicles become commercially viable, creating new markets for tech firms.
+
+A record-breaking IPO of a tech startup sparks renewed investor interest in the sector.
+
+Negative Events:
+A global semiconductor shortage worsens due to geopolitical tensions in Taiwan.
+
+Cyberattacks on critical infrastructure increase, forcing companies to spend heavily on security.
+
+Regulatory crackdowns on big tech monopolies lead to forced breakups of major companies.
+
+Consumer backlash against data privacy violations leads to stricter regulations and lawsuits.
+
+Rising interest rates make tech stocks less attractive compared to other investments.
+
+A high-profile failure of an AI system causes public skepticism about AI technologies.
+
+Supply chain disruptions delay the launch of several highly anticipated devices.
+
+Competition from emerging markets undercuts pricing power for established tech firms.
+
+Food
+Positive Events:
+Lab-grown meat becomes widely accepted, reducing reliance on traditional farming methods.
+
+Advances in vertical farming technology make year-round crop production more efficient.
+
+Governments announce subsidies for sustainable agriculture practices and organic farming.
+
+Breakthroughs in food preservation technology extend shelf life by 50%.
+
+Emerging markets experience a surge in demand for premium food products as incomes rise.
+
+Plant-based food sales double as consumers shift toward healthier diets globally.
+
+A major food company launches a successful zero-waste initiative, boosting its brand image.
+
+Climate-resistant crop varieties are developed, ensuring stable food supplies despite extreme weather.
+
+Negative Events:
+Severe droughts across multiple continents lead to skyrocketing raw material costs for food producers.
+
+Trade embargoes disrupt global food supply chains, leading to shortages and higher prices.
+
+Public backlash against genetically modified foods causes regulatory delays for new products.
+
+An outbreak of crop disease devastates wheat and corn supplies globally.
+
+Rising energy costs make food transportation significantly more expensive, squeezing margins.
+
+Consumer spending on luxury food items declines during an economic downturn.
+
+Negative press around unethical labor practices damages the reputation of major food brands.
+
+Competition from synthetic foods (e.g., 3D-printed meals) disrupts traditional food markets.
+
+Gold
+Positive Events:
+Central banks announce plans to increase gold reserves amid global currency instability fears.
+
+Advances in asteroid mining technology bring gold extraction from space closer to reality.
+
+Inflation rises sharply, driving investors toward gold as a safe-haven asset.
+
+Jewelry demand surges due to cultural trends in emerging markets like India and China.
+
+New gold mining techniques reduce environmental impact while increasing output efficiency.
+
+Gold-backed cryptocurrencies gain popularity as an alternative investment vehicle.
+
+Geopolitical tensions escalate, prompting investors to hedge with gold holdings.
+
+Renewable energy technologies drive increased demand for gold in electronics manufacturing.
+
+Negative Events:
+Gold prices fall as central banks pivot toward digital currencies over physical assets like gold.
+
+A major discovery of untapped gold reserves floods the market with supply, reducing prices sharply.
+
+Investors shift focus from gold to high-performing equities during a stock market rally.
+
+Environmental protests halt operations at key gold mining sites worldwide, reducing output temporarily.
+
+Advances in synthetic materials reduce the need for gold in electronics manufacturing processes.
+
+Rising operational costs due to stricter environmental regulations hurt mining profitability.
+
+Jewelry demand slumps as younger generations favor alternative materials over gold accessories.
+
+A breakthrough in nuclear fusion reduces reliance on precious metals for energy storage.
+
+Aviation
+Positive Events:
+Hydrogen-powered planes complete successful test flights, paving the way for zero-emission aviation by 2035.
+
+Global air travel surges as tourism rebounds strongly post-pandemic recovery efforts by governments worldwide.
+
+Major airlines announce partnerships with space tourism companies for commercial spaceflights by 2030.
+
+Innovations in supersonic flight technology slash travel times between continents by half within the next decade.
+5, Low-cost carriers expand aggressively into underserved regions globally offering affordable connectivity options
