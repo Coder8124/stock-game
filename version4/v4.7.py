@@ -1,4 +1,4 @@
-# Ignore this version, it has been superseded by v4.8
+# Ignore this version, it has been replaced by v4.7a
 
 # copy of backup incase anything happened between transporting the code
 import pygame
